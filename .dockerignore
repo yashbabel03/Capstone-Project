@@ -1,0 +1,12 @@
+node_modules
+apps/*/node_modules
+apps/ai/.venv
+data
+.git
+dist
+apps/web/dist
+apps/api/dist
+**/.env
+**/*.log
+**/.venv
+**/__pycache__

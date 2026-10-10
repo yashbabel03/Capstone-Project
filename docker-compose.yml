@@ -1,0 +1,80 @@
+services:
+  mongo:
+    image: mongo:7
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  ai:
+    build:
+      context: ./apps/ai
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      AI_HOST: 0.0.0.0
+      AI_PORT: 8002
+      CHROMA_PATH: /data/chroma
+      INTERNAL_AI_KEY: ${INTERNAL_AI_KEY}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_BASE_URL: ${OPENAI_BASE_URL:-https://api.openai.com/v1}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4o-mini}
+    volumes:
+      - chroma_data:/data/chroma
+      - upload_data:/data/uploads
+    ports:
+      - "8002:8002"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8002/health')"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build:
+      context: ./apps/api
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      NODE_ENV: production
+      API_PORT: 4000
+      MONGO_URI: mongodb://mongo:27017/restaurantops
+      AI_SERVICE_URL: http://ai:8002
+      WEB_ORIGIN: ${WEB_ORIGIN:-http://localhost:8080}
+      UPLOAD_DIR: /data/uploads
+    volumes:
+      - upload_data:/data/uploads
+    ports:
+      - "4000:4000"
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:4000/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 15s
+      timeout: 5s
+      retries: 15
+    depends_on:
+      mongo:
+        condition: service_healthy
+      ai:
+        condition: service_healthy
+
+  web:
+    build:
+      context: ./apps/web
+      args:
+        VITE_API_URL: ""
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    depends_on:
+      - api
+
+volumes:
+  mongo_data:
+  chroma_data:
+  upload_data:

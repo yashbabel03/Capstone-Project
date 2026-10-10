@@ -1,0 +1,21 @@
+SOP-EQ-011 Fryer Oil Quality and Change
+Document type: equipment_manual
+Version: 2.1
+Effective date: 2025-11-02
+Review date: 2026-11-02
+Applicable roles: staff, chef, manager, admin
+Department: kitchen
+Classification: equipment_manual
+
+Section 1. Daily
+Filter oil at close. Record TPM (total polar materials). Discard if TPM ≥ 24% or if smoke, foam, or fishy odor is present.
+
+Section 2. Change procedure
+1. Cool oil below 40°C before draining. Wear heat gloves and apron.
+2. Drain into labeled waste caddies. Never pour oil into floor sinks.
+3. Wipe kettle; do not hose water into a hot vat.
+4. Refill with approved frying oil to the etched fill line.
+5. Log vat id, TPM before, TPM after, and oil lot.
+
+Section 3. Faults
+If the fryer will not ignite or the high-limit trips, take the vat out of service, tag it, and open an incident assigned to Facilities. Do not bypass the high-limit switch.

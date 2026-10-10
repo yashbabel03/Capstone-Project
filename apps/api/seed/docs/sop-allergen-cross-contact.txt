@@ -1,0 +1,28 @@
+SOP-AL-006 Allergen Cross-Contact Control
+Document type: food_safety
+Version: 4.0
+Effective date: 2026-01-15
+Review date: 2026-10-15
+Applicable roles: chef, manager, admin
+Department: kitchen, expo, prep
+Classification: allergen
+
+Section 1. Priority allergens
+Milk, egg, fish, crustacean shellfish, tree nuts, peanuts, wheat, soy, sesame. Treat guest-declared allergens as confirmed even if not on this list.
+
+Section 2. Ticket handling
+1. Expo marks ALLERGEN in red on the ticket and repeats the allergen verbally to the station chef.
+2. Do not proceed until the station acknowledges.
+3. Use a dedicated allergen board and color-coded utensils (purple).
+
+Section 3. Prep and cook
+1. Wash hands, change gloves, wipe station with fresh sanitizer cloth.
+2. Use a clean pan, unused oil, and unopened garnish where feasible.
+3. Fryer: never cook an allergen ticket in oil that previously fried the declared allergen that day unless a documented oil change occurred.
+4. Grill: use a foil barrier on a scraped, hot zone. Do not use the bun toaster for gluten-free bread.
+
+Section 4. Guest reaction
+If a guest reports a reaction: stop service to that table, notify manager, do not move plates, retain the ticket and remaining food, call emergency services if breathing difficulty, swelling, or dizziness is present. Do not offer medical advice beyond first-aid training.
+
+Section 5. Restricted
+Staff without Chef or Manager role must not modify allergen recipes or print allergen matrices. Retrieval of the full allergen matrix is limited to Chef, Manager, and Admin.

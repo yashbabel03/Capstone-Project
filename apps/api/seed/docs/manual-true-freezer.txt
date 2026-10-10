@@ -1,0 +1,19 @@
+EQ-MAN-TRUE-T-49 Walk-in / Reach-in Freezer Operator Manual (excerpt)
+Document type: equipment_manual
+Version: 1.0
+Effective date: 2024-06-01
+Review date: 2026-06-01
+Applicable roles: staff, chef, manager, admin
+Department: kitchen, facilities
+Classification: equipment_manual
+
+Section 4.2 Alarm codes
+E1: probe fault. Replace cabinet probe; do not ignore.
+E2: high temperature. Default alarm at -12°C. Silence does not clear the fault.
+E3: door open > 3 minutes.
+
+Section 4.3 Setpoint
+Factory setpoint -20°C. Do not raise warmer than -18°C without Manager approval.
+
+Section 7. Defrost
+Electric defrost every 6 hours for 20 minutes. If coil remains iced after two cycles, call authorized service. Do not puncture the coil.

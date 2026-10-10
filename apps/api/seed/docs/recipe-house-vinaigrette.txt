@@ -1,0 +1,14 @@
+RCP-GAR-003 House Red Wine Vinaigrette
+Document type: recipe
+Version: 1.3
+Effective date: 2025-09-01
+Review date: 2026-09-01
+Applicable roles: chef, manager, admin
+Department: prep
+Classification: recipe
+
+Yield: 2 liters
+Ingredients: 600 ml red wine vinegar, 1.2 L extra virgin olive oil, 40 g Dijon, 20 g kosher salt, 8 g black pepper, 30 g minced shallot.
+Method: Whisk vinegar, Dijon, salt. Stream oil. Fold shallot last. Hold at 1–4°C, 5-day discard.
+Allergens: none of the priority eight if Dijon lot is gluten-tested. Confirm lot on the allergen matrix.
+Restricted: recipe details are Chef and above.

@@ -1,0 +1,17 @@
+SOP-OPS-002 Closing Checklist — Kitchen and FOH
+Document type: sop
+Version: 1.6
+Effective date: 2026-02-20
+Review date: 2027-02-20
+Applicable roles: staff, chef, manager, admin
+Department: kitchen, foh
+Classification: sop
+
+Section 1. Kitchen
+Walk-in cooler 0–4°C, freezer ≤ -18°C. Log both. Sanitizer buckets emptied. Protein labeled with date and time. Dish pit empty. Gas valves off except pilot as posted.
+
+Section 2. FOH
+Restrooms stocked, deposit in safe, doors deadbolted, alarm set by manager only.
+
+Section 3. Temperature miss
+If freezer is warmer than -15°C at close, do not leave. Follow SOP-FS-014 and create an incident before arming the alarm.

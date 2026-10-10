@@ -1,0 +1,7 @@
+{
+  "name": "@restaurantops/ai",
+  "private": true,
+  "scripts": {
+    "dev": "node ./run-dev.mjs"
+  }
+}

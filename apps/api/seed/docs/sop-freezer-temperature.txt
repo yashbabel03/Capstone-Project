@@ -1,0 +1,40 @@
+SOP-FS-014 Walk-in Freezer Temperature Excursion
+Document type: SOP
+Version: 3.2
+Effective date: 2026-03-01
+Review date: 2026-12-01
+Applicable roles: staff, chef, manager, admin
+Department: kitchen, prep, receiving
+Classification: food_safety
+
+Section 1. Purpose
+Prevent unsafe product storage when a walk-in freezer drifts above the authorized temperature band. Authorized holding temperature is -18°C (0°F) or colder. An excursion is any reading warmer than -15°C (5°F) lasting 15 minutes or more, or any reading warmer than -12°C (10°F) immediately.
+
+Section 2. Immediate actions (first 10 minutes)
+1. Do not discard product yet. Do not power-cycle the freezer unless directed by a manager or technician.
+2. Confirm the reading on the primary digital probe and a secondary calibrated thermometer in the warmest product (door-side top shelf).
+3. Close the door. Stop non-essential entries. Place a "TEMP HOLD — DO NOT ENTER" magnet on the door.
+4. Record time, displayed temperature, secondary probe temperature, and which sensor alarmed.
+5. If temperature is warmer than -12°C, page the on-duty manager immediately and begin product assessment (Section 4).
+6. If temperature is between -15°C and -12°C, monitor every 5 minutes. If it does not recover to -18°C within 30 minutes, treat as a full excursion.
+
+Section 3. Equipment checks
+1. Confirm door gasket seal, interior lights off, evaporator fan running, condenser intake not blocked.
+2. Check circuit breaker FZ-1. Do not reset a tripped breaker more than once.
+3. If ice is bridging the evaporator, do not chip ice. Report to facilities as "defrost failure".
+4. Photograph the controller display and the secondary probe.
+
+Section 4. Product disposition
+Use time/temperature, not appearance alone.
+- Product that remained at or below -12°C: retain, mark "EXC-HOLD", use first.
+- Potentially hazardous ready-to-eat that exceeded -12°C for more than 2 hours: discard. Complete waste log.
+- Raw protein that thawed (ice crystals gone, limp texture): do not refreeze for service. Discard or cook immediately only if a manager authorizes and a cook-through log is opened.
+- Never taste product to decide safety.
+
+Section 5. Escalation
+Escalate to Manager if: temperature warmer than -12°C, breaker trips twice, coolant leak odor, or any discarded value over local threshold.
+Escalate to Facilities if: compressor silent, alarms continue after door is sealed, or defrost failure is suspected.
+If both Manager and Facilities are unreachable within 20 minutes, call the after-hours vendor list posted on the pass.
+
+Section 6. Documentation
+Create an incident in RestaurantOps with equipment id WALK-IN-FZ-01, start time, peak temperature, duration, product actions, and photos. Manager must verify before the incident is closed. Update this SOP's review if the root cause is a procedure gap.

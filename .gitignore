@@ -6,9 +6,7 @@ build/
 *.log
 .DS_Store
 Thumbs.db
-data/uploads/
-data/chroma/
-data/mongo/
+data/
 __pycache__/
 .pytest_cache/
 .venv/
